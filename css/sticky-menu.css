@@ -33,13 +33,13 @@ html {
     bottom: 50px;
     right: 0;
     background-color: #FFF;
-    color: #337AB7;
+    color: #B2BAC6;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: #337AB7;
+    background-color: #B2BAC6;
     color: #FFF;
 }
 .welcome-section {
@@ -52,7 +52,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #A06954;
 }
 .whatwedo-section {
     height: 100%;
@@ -64,7 +64,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #A06954;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
