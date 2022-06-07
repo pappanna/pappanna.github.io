@@ -43,26 +43,30 @@ html {
     color: #ffffff;
 }
 .welcome-section {
-    height: 150%;
-    padding-top: 100px;
+    height: fit-content;
+    padding-top: 90px;
+    padding-bottom: 30px;
     text-align: center;
     background: #ffffff;
 }
 .research-section {
-    height: 100%;
-    padding-top: 75px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     background: rgba(117, 123, 149, 0.05);
 }
 .code-section {
-    height: 100%;
-    padding-top: 75px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     background: #ffffff;
 }
 .cv-section {
-    height: 100%;
-    padding-top: 75px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     background: rgba(117, 123, 149, 0.05);
 }
