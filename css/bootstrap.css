@@ -5,6 +5,12 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+.pagetext{text-align: left;font-size:12px;padding-left:20px;padding-top:10px;padding-right:20px;padding-bottom:20px}
+
+.researchtext{text-align: left;font-size:14px;padding-left:20px;padding-top:10px;padding-right:20px;padding-bottom:20px}
+
+.smalltext{font-size:10px}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
