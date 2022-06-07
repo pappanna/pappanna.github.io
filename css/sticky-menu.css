@@ -8,7 +8,7 @@ html {
 }
 @media(min-width:767px) {
     .navbar {
-        padding: 0 0;
+        padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -32,21 +32,21 @@ html {
     position: fixed;
     bottom: 0;
     right: 0;
-    background-color: rgba(117, 123, 149, 0.05);
-    color: #fff;
+    background-color: #B2BAC6;
+    color: #ffffff;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
     background-color: rgba(117, 123, 149, 0.05);
-    color: #FFF;
+    color: #ffffff;
 }
 .welcome-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #fff;
+    background: #ffffff;
 }
 .about-section {
     height: 100%;
@@ -58,7 +58,7 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #ffffff;
 }
 .contact-section {
     height: 100%;
@@ -67,14 +67,15 @@ html {
     background: rgba(117, 123, 149, 0.05);
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: #333;
-	background-color: rgba(117, 123, 149, 0.05);
+	color: #ffffff;
+	background-color: #757B95;
 }
 .navbar-default {
-    background-color: rgba(178, 186, 198, 0.50);
+    background-color: #B2BAC6;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #ffffff;
 }
 
 
