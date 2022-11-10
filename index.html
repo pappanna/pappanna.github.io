@@ -9,6 +9,7 @@
     <meta name="description" content="Simplified Bootstrap template with sticky menu">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sticky-menu.css" rel="stylesheet">
+    <link href="css/collapsible.css" rel="stylesheet">
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -76,13 +77,37 @@
                 "The Origin and Fate of Marine Plastic Pollution" (with Amir Jina, Kimberly Oremus, Nandini Ramesh)<br><br>
                 "Pollution, Plastics, and the Global Trade in Garbage" (with Matt Gordon)<br>
                 <i class="smalltext">As part of this project, we are collecting crowd-sourced information on open-air waste sites. If you know of any, please submit <a href="https://www.ban.org/plastic-waste-transparency-project-hub/the-atlas-of-plastic-waste">here</a>.</i> <br><br>
-                "The Environmental Externalities of Expanding Cryptocurrency Mining in the United States" (with Douglas Almond and Shuang Zhang) <br><br>
-                "Can Land Policy Change the Climate? Evidence from a Large Tree-Planting Program" (with Florian Grosset and Charles Taylor) <br><br>
-                "Land Privatization and Cronyism: Evidence from the Hungarian Land Auctions of 2015-2016"
+                <button type="button" class="collapsible">"Rain follows the forest: Land use policy, climate change, and adaptation (with Florian Grosset and Charles Taylor)</button>
+                <div class="content">
+                <div class="col-sm-5">
+                    <br><br>
+                    <img src="images/shelterbelt.png" width="100%">    
+                    <br><br>
                 </div>
-                <br>
+                <div class="col-sm-7"> 
+                    <br><br>
+                    <p class="mediumtext" align="justify">Human actions can alter the local and regional climate, particularly via land use. We assess the impact of the Great Plains Shelterbelt, a large-scale forestation program in the 1930s which planted 220 million trees across six US Midwestern states. The program led to a regional increase in precipitation and decrease in temperature, with impacts persisting for several decades. The change in climate extends to adjacent unforested land up to 200km away–enabling us to directly study climate adaptation. In places now facing more favorable growing conditions, crop yields increase by 53% and farmers switch to more water-intensive production. This paper highlights the endogeneity risk in using spatial variation in climate trends in estimating climate damages, as well as the potential for tree planting to mitigate climate change impacts.</p>
+                    <br><br>
+                </div>
+                </div><br><br>
+                "The Environmental Externalities of Expanding Cryptocurrency Mining in the United States" (with Douglas Almond and Shuang Zhang) <br><br>
+                "Land Privatization and Cronyism: Evidence from the Hungarian Land Auctions of 2015-2016"
+                <br><br><br>
                 <h4>Publications</h4>
-                <a href="https://www.nature.com/articles/s41558-022-01521-3">"Favourability towards natural gas relates to funding source of university energy centres"</a> <i>Nature Climate Change</i> (with Douglas Almond and Xinming Du), 2022
+                <button type="button" class="collapsible"><a href="https://www.nature.com/articles/s41558-022-01521-3">"Favourability towards natural gas relates to funding source of university energy centres"</a> <i>Nature Climate Change</i> (with Douglas Almond and Xinming Du), 2022<br></button>
+                <div class="content">
+                <div class="col-sm-5">
+                    <br><br>
+                    <img src="images/methane.png" width="100%">    
+                    <br><br>
+                </div>
+                <div class="col-sm-7"> 
+                    <br><br>
+                    <p class="mediumtext" align="justify">Methane is 28 to 86 times more potent as a driver of global warming than CO2. Global methane concentrations have increased at an accelerating rate since 2004, yet the role of fossil fuels and revitalized natural gas extraction and distribution in accelerating methane concentrations is poorly recognized. Here we examine the policy positioning of university-based energy centres towards natural gas, given their growing influence on climate discourse. We conducted sentiment analysis using a lexicon- and rule-based sentiment scoring tool on 1,168,194 sentences in 1,706 reports from 26 universities, some of which receive their primary funding from the natural gas industry. We found that fossil-funded centres are more favourable in their reports towards natural gas than towards renewable energy, and tweets are more favourable when they mention funders by name. Centres less dependent on fossil funding show a reversed pattern with more neutral sentiment towards gas, and favour solar and hydro power.</p>
+                    <br><br>
+                </div>
+                </div>
+                </div>
             </div>
         </div>
     </section>
@@ -127,10 +152,11 @@
                 Teaching Fellow, Economic Development (master’s level), Professor Nandita Krishnaswamy (Fall 2020)
                 <p>&nbsp;</p>
                 <h4>Seminar and Conference Presentations</h4>
-                TWEEDS <i>The Workshop in Environmental Economics and Data Science</i> (October 2022, Scheduled)<br>
-                Northeast Workshop on Energy Policy and Environmental Economics (June 2022)<br>
-Association of Environmental and Resource Economists (AERE) Summer Conference (June 2022)<br>
-Sustainable Development Colloquium at Columbia (2021 - 2022)
+                <b>2022:</b> <br>
+                The Workshop in Environmental Economics and Data Science (TWEEDS)<br>
+                Northeast Workshop on Energy Policy and Environmental Economics <br>
+Association of Environmental and Resource Economists (AERE) Summer Conference <br>
+Sustainable Development Colloquium at Columbia 
                 <p>&nbsp;</p>
                 <h4>Awards and Fellowships</h4>
                 PhD Research Grant, CEPR: Structural Transformation and Economic Growth Initiative (2022)<br>
@@ -151,6 +177,9 @@ Dean’s Fellowship for Doctoral Students, Columbia University (2019 - 2024)<br>
 	
 	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
 	
+	<!-- Collapsible -->
+    <script src="js/collapsible.js"></script>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
