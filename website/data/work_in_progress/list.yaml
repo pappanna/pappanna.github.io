@@ -1,0 +1,19 @@
+works:
+
+- title: "Climate adaptation and the gig economy"
+
+- title: "Pollution, plastics, and the global trade in garbage"
+  coauthors: "Matthew Gordon"
+  note: "Funding: STEG Initiative at CEPR, Minderoo Foundation"
+  abstract: >
+      What are the impacts of the global trade in plastic waste? Since a 1991 World Bank memo argued, “the economic logic behind dumping a load of toxic waste in the lowest wage country is impeccable” cross country flows of plastic waste have increased seven-fold. Yet the consequences of this trade are poorly understood, partially due to the lack of basic descriptive data about what happens to exported waste at its many destinations. Using satellite data and a machine-learning algorithm trained on crowd-sourced data, we study the spread of informal dumps before and after a major shock to the global trade in waste. Our preliminary findings show that the dumps create severe externalities, while the benefits to jobs and wages appear modest.
+
+- title: "Are plastic bag regulations effective in reducing plastic litter? Evidence from shoreline cleanups"
+  coauthors: "Kimberly L. Oremus"
+
+- title: "The Origin and Fate of Marine Plastic Pollution"
+  coauthors: "Amir Jina, Kimberly L. Oremus, Nandini Ramesh"
+
+
+
+

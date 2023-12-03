@@ -1,0 +1,11 @@
+works:
+
+- title: "Rain follows the forest: Land use policy, climate change, and adaptation"
+  pdflink: "/pdf/gpt_may2023.pdf"
+  coauthors: "Florian Grosset, Charles Taylor"
+  book: "Working Paper, May 2023"
+  links:
+    - url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333147"
+      text: "Available on SSRN"
+  abstract: >
+      Human actions can alter the regional climate, particularly via land use. We analyze the Great Plains Shelterbelt, a large-scale forestation program in the 1930s across the US Midwest. This program led to a decades-long increase in precipitation and decrease in temperature. Changes extended to adjacent unforested land up to 200km away - enabling us to directly study climate adaptation. In downwind places facing better growing conditions, crop yields increased 11-22%, and farmers switched to more water-intensive production. Regional climate is endogenous to land use policy, with implications for the study of climate change impacts and mitigation.
