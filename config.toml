@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Anna Papp'
-theme = 'academimal'
+theme = 'academimal-theme'
 ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 
 [params]
