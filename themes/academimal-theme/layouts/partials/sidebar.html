@@ -1,0 +1,25 @@
+<p class="contactinfo"><a href="{{ "#bio" | relURL }}">About</a></p>
+{{ with .GetPage "/sections/contact.md" }}
+<p class="contactinfo"><a href="{{ "#contact" | relURL }}">Contact</a></p>
+{{ end }}
+{{ with .GetPage "/sections/office-hours.md" }}
+<p class="contactinfo"><a href="{{ "#officehours" | relURL }}">Office Hours</a></p>
+{{ end }}
+{{ with .Site.Data.publications }}
+<p class="contactinfo"><a href="{{ "#publications" | relURL }}">Publications</a></p>
+{{ end }}
+{{ with .Site.Data.working_papers }}
+<p class="contactinfo"><a href="{{ "#workingpapers" | relURL }}">Working Papers</a></p>
+{{ end }}
+{{ with .Site.Data.work_in_progress }}
+<p class="contactinfo"><a href="{{ "#workinprogress" | relURL }}">Work in Progress</a></p>
+{{ end }}
+{{ with .GetPage "/sections/conferences.md" }}
+<p class="contactinfo"><a href="{{ "#teach" | relURL }}">Academic Presentation</a></p>
+{{ end }}
+{{ with .GetPage "/sections/teach.md" }}
+<p class="contactinfo"><a href="{{ "#teach" | relURL }}">Teaching</a></p>
+{{ end }}
+{{ with .GetPage "/sections/personal.md" }}
+<p class="lastcontactinfo"><a href="{{ "#personal" | relURL }}">Miscellaneous</a></p>
+{{ end }}
