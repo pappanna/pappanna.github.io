@@ -5,4 +5,4 @@ I conduct applied micro and interdisciplinary research with a focus on the envir
  
 I graduated from Harvard University, where I studied Environmental Engineering and Computer Science. Before starting my PhD, I worked as a research assistant at Yale School of Management and as an equity research associate at AB Bernstein. 
 
-__[Curriculum Vitae](/pdf/apapp_cv.pdf)__ (Updated December 2023)
+__[Curriculum Vitae](/pdf/apapp_cv.pdf)__ (Updated March 2024)
