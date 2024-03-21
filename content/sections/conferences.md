@@ -1,4 +1,4 @@
-**2024**: AERE@ASSA Annual Meeting [scheduled]
+**2024**: AERE@ASSA Annual Meeting
 
 **2023**: World Bank-GWU-UVA Economics of Sustainable Development Conference, CEEP-Federal Reserve Bank of New York Environmental Economics and Policy Conference, LSE Environment Week, AERE@AAEA Annual Conference, Harvard Climate Economics Pipeline Workshop, Interdisciplinary PhD Workshop in Sustainable Development
 
