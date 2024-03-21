@@ -6,5 +6,3 @@ I am an economist working on applied microeconomic and interdisciplinary researc
 I graduated from Harvard University, where I studied Environmental Engineering and Computer Science. Before starting my PhD, I worked as a research assistant at Yale School of Management and as an equity research associate at AB Bernstein. 
 
 __[Curriculum Vitae](/pdf/apapp_cv.pdf)__ (Updated March 2024)
-
-![Valdez!](/images/valdez.jpeg)
