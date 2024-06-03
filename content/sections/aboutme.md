@@ -5,4 +5,6 @@ I am an environmental economist working on applied microeconomic and interdiscip
  
 I graduated from Harvard University, where I studied Environmental Engineering and Computer Science. Before starting my PhD, I worked as a research assistant at Yale School of Management and as an equity research associate at AB Bernstein. 
 
+I will be on the job market this fall (AY 2024-2025).
+
 __[Curriculum Vitae](/pdf/apapp_cv.pdf)__ (Updated March 2024)
