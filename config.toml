@@ -6,7 +6,7 @@ ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 
 [params]
     shortbio = "PhD Candidate, Columbia University"
-    logo = "anna_papp_website_pic.jpeg" 
+    logo = "ap_headshot_2.jpg" 
 
 [services]
   [services.googleAnalytics]
