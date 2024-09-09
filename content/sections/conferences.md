@@ -4,4 +4,4 @@
 
 **2022**: American Geophysical Union (AGU) Fall Meeting, The Workshop in Environmental Economics and Data Science (TWEEDS), Northeast Workshop on Energy Policy and Environmental Economics, AERE Summer Conference
 
-![Death Valley](/images/deathvalley.png)
+![View from Mat Peak](/images/matanuska.png)

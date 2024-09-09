@@ -5,3 +5,5 @@ I taught the Causal Inference Workshop for PhD Students in Sustainable Developme
 Instructor (Master's), Analytics in Env. Science Policy [Summer 2020,2021]\
 Teaching Fellow (Master's), Microeconomics & Public Policy II [Spring 2021]\
 Teaching Fellow (Master's), Economic Development [Fall 2020]
+
+![Denali](/images/denali.png)
