@@ -14,9 +14,10 @@
 {{ end }}
 
 {{ with .context.press_coverage }}
-Press Coverage: 
-{{ range . }}
-<a href="{{ .url }}" target="blank">{{ .title }}</a>, 
+<p style="font-size: 0.9em; margin-top: 5px;">Press Coverage: 
+{{ $length := len . }}
+{{ range $index, $element := . }}
+<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if ne (add $index 1) $length }}, {{ end }}
 {{ end }}
+</p>
 {{ end }}
-
