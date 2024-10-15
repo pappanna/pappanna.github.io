@@ -10,7 +10,7 @@
 {{ end }}
 {{ end }}
 {{ with .context.press_coverage }}
-<p style="margin:0 0 5px;"><strong>Press coverage:</strong> 
+<p style="margin:0 0 5px;"><strong>Press coverage:</strong>
 {{ range . }}
 <a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}
 {{ end }}

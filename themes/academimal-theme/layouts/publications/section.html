@@ -1,62 +1,47 @@
-{{ define "main" -}}
-{{ .Content }}
-    {{ range .Site.Data.publications }}
-    {{ with .preprint }}
-    <h3>Preprints</h3>
-    {{ range . }}
-    <p>
-        <strong>{{ .title }}</strong><br>
-        {{ delimit ( apply .authors "replace" "." "Lei Yang" "<em>Lei Yang</em>" ) ", " }}<br>
-        {{ .date }}
-        {{ with .remarks }}
-        - <strong>{{ with .link }}<a href="{{ . }}" target="blank">{{ end }}{{ .text }}{{ with .link }}</a>{{ end }}</strong>
-        {{ end }}
-        {{ with .links }}
-        <br>{{ range first 1 . }}<a href="{{ .link }}" target="blank">{{ .text }}</a>{{ end }}{{ range after 1 . }}, <a href="{{ .link }}" target="blank">{{ .text}}</a>{{ end }}
-        {{ end }}
-        {{ with .press_coverage }}
-        <br><strong>Press coverage:</strong> {{ range . }}<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}{{ end }}
-        {{ end }}
-    </p>
-    {{ end }}
-    {{ end }}
-    {{ with .conference }}
-    <h3>Conference Proceedings</h3>
-    {{ range . }}
-    <p>
-        <strong>{{ .title }}</strong><br>
-        {{ delimit ( apply .authors "replace" "." "Lei Yang" "<em>Lei Yang</em>" ) ", " }}<br>
-        {{ .book }}, {{ .date }}
-        {{ with .remarks }}
-        - <strong>{{ with .link }}<a href="{{ . }}" target="blank">{{ end }}{{ .text }}{{ with .link }}</a>{{ end }}</strong>
-        {{ end }}
-        {{ with .links }}
-        <br>{{ range first 1 . }}<a href="{{ .link }}" target="blank">{{ .text }}</a>{{ end }}{{ range after 1 . }}, <a href="{{ .link }}" target="blank">{{ .text}}</a>{{ end }}
-        {{ end }}
-        {{ with .press_coverage }}
-        <br><strong>Press coverage:</strong> {{ range . }}<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}{{ end }}
-        {{ end }}
-    </p>
-    {{ end }}
-    {{ end }}
-    {{ with .journal }}
-    <h3>Journal Articles</h3>
-    {{ range . }}
-    <p>
-        <strong>{{ .title }}</strong><br>
-        {{ delimit ( apply .authors "replace" "." "Lei Yang" "<em>Lei Yang</em>" ) ", " }}<br>
-        {{ .book }}, {{ .date }}
-        {{ with .remarks }}
-        - <strong>{{ with .link }}<a href="{{ . }}" target="blank">{{ end }}{{ .text }}{{ with .link }}</a>{{ end }}</strong>
-        {{ end }}
-        {{ with .links }}
-        <br>{{ range first 1 . }}<a href="{{ .link }}" target="blank">{{ .text }}</a>{{ end }}{{ range after 1 . }}, <a href="{{ .link }}" target="blank">{{ .text}}</a>{{ end }}
-        {{ end }}
-        {{ with .press_coverage }}
-        <br><strong>Press coverage:</strong> {{ range . }}<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}{{ end }}
-        {{ end }}
-    </p>
-    {{ end }}
-    {{ end }}
-    {{ end }}
-{{- end }}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000; min-height: 18.0px}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{ define "main" -}} {{ .Content }} {{ range .Site.Data.publications }} {{ with .preprint }}</span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Preprints</b></span></h3>
+<p class="p1"><span class="s1">{{ range . }}</span></p>
+<p class="p3"><span class="s1"><b>{{ .title }}</b><br>
+{{ delimit ( apply .authors "replace" "." "Lei Yang" "<i>Lei Yang</i>" ) ", " }}<br>
+{{ .date }} {{ with .remarks }} - <b>{{ with .link }}</b><a href="file:///Users/annapapp/Downloads/%7B%7B%20.%20%7D%7D"><span class="s2"><b>{{ end }}{{ .text }}{{ with .link }}</b></span></a><b>{{ end }}</b> {{ end }} {{ with .links }} <br>
+{{ range first 1 . }}<a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text }}</span></a>{{ end }}{{ range after 1 . }}, <a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text}}</span></a>{{ end }} {{ end }}</span></p>
+<p class="p3"><span class="s1">{{ with .press_coverage }}</span></p>
+<p class="p3"><span class="s1">**Press coverage:**</span></p>
+<p class="p3"><span class="s1">{{ range . }}[{{ .title }}]({{ .url }}){target="blank"}{{ if not (last .) }}, {{ end }}{{ end }}</span></p>
+<p class="p3"><span class="s1">{{ end }}</span></p>
+<p class="p1"><span class="s1">{{ end }} {{ end }} {{ with .conference }}</span></p>
+<p class="p4"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Conference Proceedings</b></span></h3>
+<p class="p1"><span class="s1">{{ range . }}</span></p>
+<p class="p3"><span class="s1"><b>{{ .title }}</b><br>
+{{ delimit ( apply .authors "replace" "." "Lei Yang" "<i>Lei Yang</i>" ) ", " }}<br>
+{{ .book }}, {{ .date }} {{ with .remarks }} - <b>{{ with .link }}</b><a href="file:///Users/annapapp/Downloads/%7B%7B%20.%20%7D%7D"><span class="s2"><b>{{ end }}{{ .text }}{{ with .link }}</b></span></a><b>{{ end }}</b> {{ end }} {{ with .links }} <br>
+{{ range first 1 . }}<a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text }}</span></a>{{ end }}{{ range after 1 . }}, <a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text}}</span></a>{{ end }} {{ end }}</span></p>
+<p class="p1"><span class="s1">{{ end }} {{ end }} {{ with .journal }}</span></p>
+<p class="p4"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Journal Articles</b></span></h3>
+<p class="p1"><span class="s1">{{ range . }}</span></p>
+<p class="p3"><span class="s1"><b>{{ .title }}</b><br>
+{{ delimit ( apply .authors "replace" "." "Lei Yang" "<i>Lei Yang</i>" ) ", " }}<br>
+{{ .book }}, {{ .date }} {{ with .remarks }} - <b>{{ with .link }}</b><a href="file:///Users/annapapp/Downloads/%7B%7B%20.%20%7D%7D"><span class="s2"><b>{{ end }}{{ .text }}{{ with .link }}</b></span></a><b>{{ end }}</b> {{ end }} {{ with .links }} <br>
+{{ range first 1 . }}<a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text }}</span></a>{{ end }}{{ range after 1 . }}, <a href="file:///Users/annapapp/Downloads/%7B%7B%20.link%20%7D%7D"><span class="s2">{{ .text}}</span></a>{{ end }} {{ end }}</span></p>
+<p class="p1"><span class="s1">{{ end }} {{ end }} {{ end }} {{- end }}</span></p>
+</body>
+</html>
