@@ -3,6 +3,7 @@ works:
   pdflink: "/pdf/paz_nov2023.pdf"
   book: "Journal of Public Economics, 2023"
   coauthors: "Douglas Almond, Shuang Zhang"
+  note: "Selected Coverage: <a href="https://energyathaas.wordpress.com/2023/10/30/saving-coal-one-bitcoin-at-a-time/">Berkeley Energy Institute Blog</a>, <a href="https://www.washingtonexaminer.com/policy/energy-and-environment/2439160/daily-on-energy-finding-for-a-1-rise-in-bitcoin-a-miner-deals-3-to-6-of-carbon-emissions-damages/">The Washington Examiner</a>"
   abstract: >
     Environmental externalities from cryptomining may be large, but have not been linked causally to mining incentives. We exploit daily variation in Bitcoin price as a natural experiment for an 86 megawatt waste coal-fired power plant with on-site cryptomining. We find that carbon emissions respond swiftly to mining incentives, with price elasticities of 0.69–0.71 in the short-run and 0.33–0.40 in the longer run. A $1 increase in Bitcoin price leads to $3.11–$6.79 in external damages from carbon emissions alone, well exceeding cryptomining’s value added (using a $190 social cost of carbon, but ignoring increased local air pollution). As cryptomining requires ever more computing power to mine a given number of blocks, our study highlights both the revitalization of US fossil assets and the need for financial industry accounting to incorporate cryptomining externalities.
 
