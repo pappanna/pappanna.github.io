@@ -9,11 +9,5 @@
 <p style="margin:0 0 5px;"><a href="{{ .url }}" target="blank">{{ .text }}</a>{{ with .note }}: {{ . }}{{ end }}</p>
 {{ end }}
 {{ end }}
-{{ with .context.press_coverage }}
-<p style="margin:0 0 5px;"><strong>Press coverage:</strong> 
-{{ range . }}
-<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}
-{{ end }}
-</p>
-{{ end }}
-
+<!-- Press Coverage Test -->
+<p style="margin:0 0 5px;">Press Coverage Test: {{ if .context.press_coverage }}Available{{ else }}Not Available{{ end }}</p>
