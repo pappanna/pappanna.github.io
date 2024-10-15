@@ -15,7 +15,7 @@
 
 {{ with .context.press_coverage }}
 {{ range . }}
-<p style="margin:0 0 5px;"><a href="{{ .url }}" target="blank">{{ .title }}</a></p>
+<a href="{{ .url }}" target="blank">{{ .title }}</a>, 
 {{ end }}
 {{ end }}
 
