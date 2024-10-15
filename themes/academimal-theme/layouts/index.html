@@ -25,11 +25,6 @@
 {{ range . }}
 {{ range .works }}
 {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
-{{ if .press_coverage }}
-      <p style="margin:0 0 5px;">Press Coverage Available</p>
-    {{ else }}
-      <p style="margin:0 0 5px;">No Press Coverage</p>
-    {{ end }}
 {{ $scratch.Add "pubcnt" 1 }}   
 {{ end }}
 {{ end }}
