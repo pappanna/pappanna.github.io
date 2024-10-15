@@ -11,6 +11,9 @@ works:
   links:
     - url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333147"
       text: "Available on SSRN"
+  press_coverage:
+    - title: "World Resources Institute"
+      url: "https://www.wri.org/insights/restoring-degraded-forests-temperature-precipitation-effects"
   abstract: >
       Human actions can alter the regional climate, particularly via land use. We analyze the Great Plains Shelterbelt, a large-scale forestation program in the 1930s across the US Midwest. This program led to a decades-long increase in precipitation and decrease in temperature. Changes extended to adjacent unforested land up to 200km away - enabling us to directly study climate adaptation. In downwind places facing improved growing conditions, farmers expanded corn acreage and switched to more water-intensive production. This paper highlights the endogeneity of the climate to land use changes, and the potential for tree planting to regionally mitigate climate change impacts.
 
@@ -23,3 +26,6 @@ works:
 - title: "Methane spikes when US LNG unloaded abroad"
   coauthors: "Xinming Du, Douglas Almond, Maya Norman"
   book: "Submitted"
+  press_coverage:
+    - title: "The New Yorker"
+      url: "https://www.newyorker.com/news/daily-comment/a-smoking-gun-for-bidens-big-climate-decision"

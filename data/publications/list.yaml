@@ -15,5 +15,14 @@ works:
   pdflink: "https://www.nature.com/articles/s41558-022-01521-3"
   book: "Nature Climate Change, 2022"
   coauthors: "Douglas Almond, Xinming Du"
+  press_coverage:
+    - title: "The Guardian"
+      url: "https://www.theguardian.com/business/article/2024/sep/05/universities-fossil-fuel-funding-green-energy?CMP=Share_iOSApp_Other"
+    - title: "Der Spiegel"
+      url: "https://www.spiegel.de/wissenschaft/mensch/klimakonferenz-cop27-im-hintergrund-agieren-die-saboteure-kolumne-a-1ff0b239-8c1b-42b6-b572-7963c4e700ef"
+    - title: "The Times Higher Education"
+      url: "https://www.timeshighereducation.com/news/should-universities-take-polluters-money-climate-research"
+    - title: "Inside Higher Ed"
+      url: "https://www.insidehighered.com/news/2022/12/02/sustainability-school-faces-backlash-over-fossil-fuel-funds"
   abstract: >
     Methane is 28 to 86 times more potent as a driver of global warming than CO2. Global methane concentrations have increased at an accelerating rate since 2004, yet the role of fossil fuels and revitalized natural gas extraction and distribution in accelerating methane concentrations is poorly recognized. Here we examine the policy positioning of university-based energy centres towards natural gas, given their growing influence on climate discourse. We conducted sentiment analysis using a lexicon- and rule-based sentiment scoring tool on 1,168,194 sentences in 1,706 reports from 26 universities, some of which receive their primary funding from the natural gas industry. We found that fossil-funded centres are more favourable in their reports towards natural gas than towards renewable energy, and tweets are more favourable when they mention funders by name. Centres less dependent on fossil funding show a reversed pattern with more neutral sentiment towards gas, and favour solar and hydro power.
