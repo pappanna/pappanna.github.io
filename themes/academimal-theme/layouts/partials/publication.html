@@ -17,7 +17,7 @@
 <p style="font-size: 0.7em; margin-top: 5px;"><strong>Selected Coverage:</strong>
 {{ $length := len . }}
 {{ range $index, $element := . }}
-<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if ne (add $index 1) $length }}, {{ end }}
+<a href="{{ .url }}" target="blank" style="color: #a45851;">{{ .title }}</a>{{ if ne (add $index 1) $length }}, {{ end }}
 {{ end }}
 </p>
 {{ end }}
