@@ -25,6 +25,7 @@
 {{ range . }}
 {{ range .works }}
 {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ partial "press_coverage.html" . }}
 {{ $scratch.Add "pubcnt" 1 }}   
 {{ end }}
 {{ end }}
