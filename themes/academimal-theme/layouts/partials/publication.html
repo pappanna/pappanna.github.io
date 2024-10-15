@@ -10,12 +10,6 @@
 {{ with .context.links }}
 {{ range . }}
 <p style="margin:0 0 5px;"><a href="{{ .url }}" target="blank">{{ .text }}</a>{{ with .note }}: {{ . }}{{ end }}</li>
-
-{{ with .context.press_coverage }}
-<p style="margin:0 0 5px;"><strong>Press coverage:</strong>
-{{ range . }}
-<a href="{{ .url }}" target="blank">{{ .title }}</a>{{ if not (last .) }}, {{ end }}
-
 {{ end }}
 {{ end }}
 
