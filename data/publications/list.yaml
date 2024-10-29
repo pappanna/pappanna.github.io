@@ -1,7 +1,8 @@
 works:
 - title: "Bitcoin and carbon dioxide emissions: Evidence from daily production decisions"
   pdflink: "/pdf/paz_nov2023.pdf"
-  book: "Journal of Public Economics, 2023"
+  journal: "Journal of Public Economics"
+  status: "2023" 
   coauthors: "Douglas Almond, Shuang Zhang"
   press_coverage:
     - title: "Berkeley Energy Institute Blog"
@@ -13,7 +14,8 @@ works:
 
 - title: "Favourability towards natural gas relates to funding source of university energy centers"
   pdflink: "https://www.nature.com/articles/s41558-022-01521-3"
-  book: "Nature Climate Change, 2022"
+  journal: "Nature Climate Change"
+  status: "2022"
   coauthors: "Douglas Almond, Xinming Du"
   press_coverage:
     - title: "The Guardian"

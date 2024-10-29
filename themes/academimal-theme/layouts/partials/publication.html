@@ -4,7 +4,13 @@
 
 {{ with .context.note }}<p style="margin:0 0 5px;">{{ . }}</p>{{ end }}
 {{ if .context.journal }}
-    <p style="margin:0 0 5px;">{{ .context.status }} <em><u>{{ .context.journal }}</u></em></p>
+    <p style="margin:0 0 5px;">
+    {{- if eq (len .context.status) 4 -}}
+        <em><u>{{ .context.journal }}</u></em> ({{ .context.status }})
+    {{- else -}}
+        {{ .context.status }} <em><u>{{ .context.journal }}</u></em>
+    {{- end -}}
+    </p>
 {{ else }}
     {{ with .context.book }}<p style="margin:0 0 5px;"><em>{{ . }}</em></p>{{ end }}
 {{ end }}
