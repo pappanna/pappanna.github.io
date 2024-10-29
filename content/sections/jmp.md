@@ -1,1 +1,1 @@
-![Job Market Paper](/images/jmp_results.png)
+![Job Market Paper](/images/jmp_results_.png)
