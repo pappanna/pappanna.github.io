@@ -20,6 +20,7 @@
 {{ $scratch.Set "pubcnt" 0 }}
 
 {{ with .Site.Data.jmp }}
+<hr>
 <h2 id="jmp">Job Market Paper</h2>
 {{ range . }}
 {{ range .works }}
@@ -30,6 +31,7 @@
 {{ end }}
 
 {{ with .GetPage "/sections/jmp.md" }}
+<br>
 {{ .Content }}
 {{ end }}
 
