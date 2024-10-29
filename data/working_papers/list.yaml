@@ -1,8 +1,9 @@
 works:
-- title: "Who bears climate change damages? Evidence from the gig economy"
-  book: "Job Market Paper (Draft Coming Soon!)"
+- title: "Are plastic bag regulations effective in reducing plastic litter? Evidence from shoreline cleanups"
+  coauthors: "Kimberly L. Oremus"
+  book: "Resubmission invited at Science"
   abstract: > 
-      This paper provides the first causal evidence that gig economy platforms enable consumer adaptation to climate change while shifting climate-related damages to workers without incremental compensation. Across diverse markets and climates (UK, Germany, France, and Mexico), I leverage detailed transaction data and labor force surveys and exploit exogenous variation in daily maximum temperatures. On hot days relative to moderate days, I find an 8-16% increase in food delivery expenditures and a similar decline in dine-in restaurant spending, driven primarily by higher-income consumers. On these days, food delivery workers work 1.7 hours more on average, exposing them to material health risks. Yet, I find that their hourly wages do not increase, despite the flexibility of wages in this setting. This combination of results is unique to platform-based work and I provide evidence that future earnings uncertainty related to workers' employment status plays a role in these outcomes. My findings highlight environmental equity concerns from unequal access to climate adaptation and the shift of climate harms and underscore the importance of climate-related risks in regulating gig economy platform work.
+    Plastic pollution poses threats to marine ecosystems and ecosystem services. While plastic bag bans and taxes are increasingly implemented worldwide, their effectiveness in reducing plastic litter remains unknown. Leveraging the patchwork of bag policies across different geographic scales in the United States and citizen science data on 45,067 U.S. shoreline cleanups, we assess the impact of these policies on plastic bag litter. We find that plastic bag policies lead to a 25-47% decrease in plastic bags as a share of total items collected at cleanups, with taxes possibly further reducing shoreline litter. At a time when many jurisdictions are considering bag policies while others are preemptively prohibiting them, our study provides evidence that these policies can reduce shoreline plastic pollution.
 
 - title: "Rain follows the forest: Land use policy, climate change, and adaptation"
   pdflink: "/pdf/gpt_aug2024.pdf"
@@ -16,12 +17,6 @@ works:
       url: "https://www.wri.org/insights/restoring-degraded-forests-temperature-precipitation-effects"
   abstract: >
       Human actions can alter the regional climate, particularly via land use. We analyze the Great Plains Shelterbelt, a large-scale forestation program in the 1930s across the US Midwest. This program led to a decades-long increase in precipitation and decrease in temperature. Changes extended to adjacent unforested land up to 200km away - enabling us to directly study climate adaptation. In downwind places facing improved growing conditions, farmers expanded corn acreage and switched to more water-intensive production. This paper highlights the endogeneity of the climate to land use changes, and the potential for tree planting to regionally mitigate climate change impacts.
-
-- title: "Are plastic bag regulations effective in reducing plastic litter? Evidence from shoreline cleanups"
-  coauthors: "Kimberly L. Oremus"
-  book: "Resubmission invited at Science"
-  abstract: > 
-    Plastic pollution poses threats to marine ecosystems and ecosystem services. While plastic bag bans and taxes are increasingly implemented worldwide, their effectiveness in reducing plastic litter remains unknown. Leveraging the patchwork of bag policies across different geographic scales in the United States and citizen science data on 45,067 U.S. shoreline cleanups, we assess the impact of these policies on plastic bag litter. We find that plastic bag policies lead to a 25-47% decrease in plastic bags as a share of total items collected at cleanups, with taxes possibly further reducing shoreline litter. At a time when many jurisdictions are considering bag policies while others are preemptively prohibiting them, our study provides evidence that these policies can reduce shoreline plastic pollution.
 
 - title: "Methane spikes when US LNG unloaded abroad"
   coauthors: "Xinming Du, Douglas Almond, Maya Norman"
