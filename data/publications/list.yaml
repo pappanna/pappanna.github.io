@@ -4,6 +4,7 @@ works:
   journal: "Journal of Public Economics"
   status: "2023" 
   coauthors: "Douglas Almond, Shuang Zhang"
+  first_author: true
   press_coverage:
     - title: "Berkeley Energy Institute Blog"
       url: "https://energyathaas.wordpress.com/2023/10/30/saving-coal-one-bitcoin-at-a-time/"
