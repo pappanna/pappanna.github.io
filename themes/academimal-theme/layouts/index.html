@@ -20,7 +20,6 @@
 {{ $scratch.Set "pubcnt" 0 }}
 
 {{ with .Site.Data.jmp }}
-<hr>
 <h2 id="jmp">Job Market Paper</h2>
 {{ range . }}
 {{ range .works }}
@@ -28,6 +27,12 @@
 {{ $scratch.Add "pubcnt" 1 }}   
 {{ end }}
 {{ end }}
+{{ end }}
+
+{{ with .GetPage "/sections/jmp.md" }}
+<hr>
+<h2 id="jmp">Job Market Graph</h2>
+{{ .Content }}
 {{ end }}
 
 {{ with .Site.Data.working_papers }}
