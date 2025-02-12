@@ -7,4 +7,4 @@ I graduated from Harvard University, where I studied Environmental Engineering a
 
 I am on the 2024-2025 academic job market.
 
-__[CV](/pdf/apapp_cv.pdf)__ (Updated January 2025)
+__[CV](/pdf/apapp_cv.pdf)__ (Updated February 2025)
