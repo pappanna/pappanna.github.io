@@ -16,6 +16,8 @@ works:
     - url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333147"
       text: "Available on SSRN"
   press_coverage:
+    - title: "CEPR VoxTalks Podcast"
+      url: "https://cepr.org/multimedia/can-planting-trees-change-climate"
     - title: "World Resources Institute"
       url: "https://www.wri.org/insights/restoring-degraded-forests-temperature-precipitation-effects"
   abstract: >
