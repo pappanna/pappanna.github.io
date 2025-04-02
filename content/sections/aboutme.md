@@ -5,6 +5,4 @@ I am an environmental economist with interests in labor economics. I work on app
  
 I graduated from Harvard University, where I studied Environmental Engineering and Computer Science. Before starting my PhD, I worked as a research assistant at Yale School of Management and as an equity research associate at AB Bernstein. 
 
-I am on the 2024-2025 academic job market.
-
 __[CV](/pdf/apapp_cv.pdf)__ (Updated February 2025)
