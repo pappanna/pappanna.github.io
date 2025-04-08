@@ -1,4 +1,4 @@
-**2025**: NBER EEE Spring Meeting (Discussant), LSE/Imperial Environmental Economics Workshop [scheduled], WB/GW/IGC Urbanization and Development Conference [scheduled]
+**2025**: NBER EEE Spring Meeting (Discussant), LSE/Imperial Environmental Economics Workshop (scheduled), WB/GW/IGC Urbanization and Development Conference (scheduled)
 
 **2024**: AERE@ASSA Annual Meeting, AERE@WEAI, NBER Summer Institute (Development of the American Economy), CU Environmental and Resource Economics Workshop, Heartland Environmental and Resource Economics Workshop, NEUDC, SEA Annual Meeting
 
