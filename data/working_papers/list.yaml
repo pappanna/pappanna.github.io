@@ -15,6 +15,17 @@ works:
   abstract: >
       Human actions can alter the regional climate, particularly via land use. We analyze the Great Plains Shelterbelt, a large-scale forestation program in the 1930s across the US Midwest. This program led to a decades-long increase in precipitation and decrease in temperature. Changes extended to adjacent unforested land up to 200km away - enabling us to directly study climate adaptation. In downwind places facing improved growing conditions, farmers expanded corn acreage and switched to more water-intensive production. This paper highlights the endogeneity of the climate to land use changes, and the potential for tree planting to regionally mitigate climate change impacts.
 
+- title: "Working under the sun: the role of occupation in temperature-related mortality in Mexico"
+  pdflink: "/pdf/bpssw_mar2025.pdf"
+  coauthors: "Danny Bressler, Luis Sarmiento, Jeffrey Shrader, Andrew Wilson"
+  status: "R&R at "
+  journal: "Journal of Human Resources"
+  links:
+    - url: "https://docs.iza.org/dp17759.pdf"
+      text: "Available as IZA Discussion Paper No. 17759"
+  abstract: >
+      We investigate how occupation influences the relationship between temperature and mortality in Mexico. Using multiple decades of nationwide death records---which include information on occupation---linked to local weather data, we find that heat-related mortality risk varies sharply by occupation. Young adults in climate-exposed jobs, especially in agriculture, experience significantly higher death rates from warm and hot temperatures. A 15 to 24 year-old agricultural worker is over 10 times more likely to die from heat exposure than a peer in professional or managerial employment, underscoring the role of occupation in climate vulnerability. These findings evince that the burden of extreme heat disproportionately falls on the working poor. Our results suggest that implementing occupational safety measures and targeted heat adaptation policies (such as mandatory rest breaks and early warnings for outdoor workers) are essential to protect vulnerable workers. Furthermore, ongoing economic shifts away from highly exposed sectors may reduce increases in heat-related mortality due to climate change.
+
 - title: "Who bears climate change damages? Evidence from the gig economy"
   pdflink: "/jmp/apapp_jmp.pdf"
   abstract: > 
