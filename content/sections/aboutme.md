@@ -6,4 +6,4 @@ I will join the Bren School at UC Santa Barbara as an Assistant Professor in Jul
 I got my PhD in [Sustainable Development](https://www.sipa.columbia.edu/academics/programs/phd-sustainable-development) at Columbia University's School of International and Public Affairs.
 
  
-__[CV](/pdf/apapp_cv.pdf)__ (Updated February 2025)
+__[CV](/pdf/apapp_cv.pdf)__ (Updated June 2025)
