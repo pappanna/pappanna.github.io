@@ -5,7 +5,7 @@ theme = 'academimal-theme'
 ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 
 [params]
-    shortbio = "PhD Candidate, Columbia University"
+    shortbio = "Environmental Economist"
     logo = "ap_headshot_1.jpg" 
 
 [services]
