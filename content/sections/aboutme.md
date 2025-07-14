@@ -6,4 +6,4 @@ I am currently a postdoc at MIT at the Department of Economics and SERC. I will 
 I got my PhD in [Sustainable Development](https://www.sipa.columbia.edu/academics/programs/phd-sustainable-development) at Columbia University's School of International and Public Affairs.
 
  
-__[CV](/pdf/apapp_cv.pdf)__ (Updated June 2025)
+__[CV](/pdf/apapp_cv.pdf)__ (Updated July 2025)
