@@ -1,4 +1,6 @@
-**2025**: NBER EEE Spring Meeting (Discussant), LSE/Imperial Environmental Economics Workshop (scheduled)
+**2026** (including scheduled): ASSA Annual Meeting
+
+**2025** (including scheduled): NBER EEE Spring Meeting (Discussant), LSE/Imperial Environmental Economics Workshop, EEA Congress, University of Toronto, Yale School of Environment, MIT
 
 **2024**: AERE@ASSA Annual Meeting, AERE@WEAI, NBER Summer Institute (Development of the American Economy), CU Environmental and Resource Economics Workshop, Heartland Environmental and Resource Economics Workshop, NEUDC, SEA Annual Meeting
 
