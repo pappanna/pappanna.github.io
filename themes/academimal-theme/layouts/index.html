@@ -41,20 +41,22 @@
 {{ end }}
 {{ end }}
 
+{{/* Work in Progress section hidden for now — delete this comment wrapper to restore it.
 {{ with .Site.Data.work_in_progress }}
 <hr>
 <h2 id="workinprogress">Work in Progress</h2>
 {{ range . }}
 {{ range .works }}
 {{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
-{{ $scratch.Add "pubcnt" 1 }}   
+{{ $scratch.Add "pubcnt" 1 }}
 {{ end }}
 {{ end }}
 {{ end }}
+*/}}
 
 {{ with .GetPage "/sections/conferences.md" }}
 <hr>
-<h2 id="conferences">Academic Presentations</h2>
+<h2 id="conferences">Upcoming Presentations</h2>
 {{ .Content }}
 {{ end }}
 
