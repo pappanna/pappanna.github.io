@@ -6,4 +6,4 @@ I am an Assistant Professor at the [Bren School of Environmental Science & Manag
 I got my PhD in [Sustainable Development](https://www.sipa.columbia.edu/academics/programs/phd-sustainable-development) at Columbia University's School of International and Public Affairs.
 
  
-__[CV](/pdf/apapp_cv.pdf)__ (Updated July 2026)
+__[CV](/pdf/apapp_cv.pdf)__ (Updated September 2026)
